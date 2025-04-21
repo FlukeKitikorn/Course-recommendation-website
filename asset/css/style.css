@@ -69,3 +69,19 @@ body{
     color: inherit;
 }
 
+.dropdown-menu-sm{
+    display: none;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    #content-sub {
+      display: none;
+    }
+
+    .dropdown-menu-sm {
+      display: block;
+      margin: 20px auto;
+      max-width: 300px;
+    }
+  }
