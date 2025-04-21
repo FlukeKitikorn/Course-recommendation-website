@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+AU+SA:wght@100..400&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 :root{
    --color : #03cafc; 
    --color-bg : #f5f6f6;
@@ -7,12 +9,32 @@
 
 body{
     background-color: var(--color-bg);
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 
 .navbar{
-    background-color: white;
+    background-color: #b3b3b3;
     z-index: 2;
+}
+
+.offcanvas{
+    background-color: #b3b3b3;
+    .offcanvas-title{
+        color: white;
+    }
+    .btn-close{
+        color: white ; 
+    }
+}
+
+.navbar-brand, .offcanvas-header{
+    font-family: "Playwrite AU SA", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .navbar-toggler{
@@ -26,6 +48,7 @@ body{
 .nav-link{
     transition: all 0.2s ;
     position: relative;
+    /* color: black; */
 }
 .nav-link:hover{
     /* text-decoration: underline; */
@@ -47,6 +70,21 @@ body{
 
 .nav-link:hover::before{
     opacity: 1;
+}
+
+.carousel-caption{
+    bottom: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+    h5{
+        font-size: 70px;
+        font-weight: 500;
+    }
+    p{
+        margin-top: 10px;
+        font-size: 18px;
+        top: 2rem;
+    }
 }
 
 .item-categories{
@@ -90,12 +128,20 @@ body{
     width: 120px;
 }
 
-#sub{
-    margin: 10px 10px;
+#button_cate{
+    /* background-color: var(--color); */
+    border: none;
 }
-#sub:hover{
-    cursor: pointer;
-    transform: scale(1.1);
+
+footer{
+    div{
+        section{
+            a:hover{
+                opacity: 0.8;
+                transition: opacity 0.3s ease;
+            }
+        }
+    }
 }
 
 /* Mobile */
@@ -108,17 +154,29 @@ body{
       display: block;
       margin: 20px auto;
       max-width: 300px;
+      color: black;
     }
 }
 
 /* Tablet */
 @media (max-width: 768px){
-    #sub-container{
-        
+    .carousel-caption{
+        bottom: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        h5{
+            font-size: 30px;
+            font-weight: 500;
+        }
+        p{
+            margin-top: 10px;
+            font-size: 14px;
+            top: 2rem;
+        }
     }
 }
 
 /* Laptop */
-@media (max-width: 992px){
-    
-}
+/* @media (max-width: 992px){
+    li .nav-item {color: black;}
+} */

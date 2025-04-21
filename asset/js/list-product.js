@@ -11,7 +11,7 @@ fetch('./product.json')
         container.innerHTML = ""; 
         filteredData.forEach(item => {
         container.innerHTML += `
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4" id="Sub">
             <div class="card" style="width: 100%;">
                 <img src="${item.images[0].url}" class="card-img-top w-100" alt="${item.title}" style="height: 30vh;">
                 <div class="card-body">
