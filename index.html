@@ -94,7 +94,7 @@
 
     <!-- Start Categories -->
     <section class="my-3 container text-center">
-      <div  id="text-header"><h2>Categories</h2></div>
+      <div class="mb-3" id="text-header"><h2>Categories</h2></div>
       <select class="form-select dropdown-menu-sm" aria-label="Small screen category menu">
         <option selected>Choose category</option>
         <option value="all">All</option>
@@ -103,45 +103,48 @@
         <option value="physics">Physics</option>
         <option value="biology">Biology</option>
         <option value="english">English</option>
+        <option value="music">Music</option>
       </select>
-      <div class="row justify-content-center " id="content-sub">
-        <div class="col-lg-3  col-md-4 col-sm-6">
-          <a href="#">All</a>
+      <div class="row justify-content-center my-2" id="content-sub">
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <a href="#" value="all" class="btn btn-primary w-100 text-white" role="button"><strong>All</strong></a>
         </div>
-        <div class="col-lg-3 col-sm-4 ">
-          <a href="#">Mathematics</a>
-        </div> 
-        <div class="col-lg-3  col-sm-4  col-sm-6">
-          <a href="#">Science</a>
-        </div> 
-        <div class="col-lg-3  col-md-4 col-sm-6">
-          <a href="#">Physics</a>
-        </div> 
-        <div class="col-lg-3  col-md-4 col-sm-6">
-          <a href="#">Biology</a>
-        </div> 
-        <div class="col-lg-3  col-md-4 col-sm-6">
-          <a href="#">English</a>
-        </div> 
-        <div class="col-lg-3  col-md-4 col-sm-6">
-          <a href="#">Music</a>
-        </div> 
-        
-        
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <a href="#" value="math" class="btn btn-primary w-100 text-white" role="button"><strong>Mathematics</strong></a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <a href="#" value="science" class="btn btn-primary w-100 text-white" role="button"><strong>Science</strong></a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <a href="#" value="physics" class="btn btn-primary w-100 text-white" role="button"><strong>Physics</strong></a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <a href="#" value="biology" class="btn btn-primary w-100 text-white" role="button"><strong>Biology</strong></a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <a href="#" value="english" class="btn btn-primary w-100 text-white" role="button"><strong>English</strong></a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <a href="#" value="music" class="btn btn-primary w-100 text-white" role="button"><strong>Music</strong></a>
+        </div>
       </div>
+      
     </section>
     <!-- End Categories -->
 
     <!-- Start Subject -->
-    <section id="sub">
+    <section class="my-4 container" >
       <div class="row justify-content-center">
-        <div class="col col-sm-1 col-md-3 col-lg-2">
+        <div class="col col-sm-1 col-md-3 col-lg-2" id="sub">
           <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="./asset/img/Subject/1.png" class="card-img-top w-100" alt="sub1" style="height: 30vh;">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="d-flex justify-content-around mb-3">
+              <h3>140</h3>
+              <button class="btn btn-primary">Buy now</button>
             </div>
           </div>
         </div>
@@ -149,7 +152,9 @@
     </section>
     <!-- End Suject -->
 
-    <footer class="bg-dark">
+
+    <!-- Start footer -->
+    <footer class="bg-dark" >
       <div class="container p-4 pb-0" id="social-footer">
           <section class="mb-4 text-center">
               <!-- Facebook -->
@@ -198,6 +203,8 @@
           </p>
       </div>
   </footer>
+  <!-- End footer -->
+
     <script src="/asset/js/bootstrap.min.js"></script>
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/33742628d2.js" crossorigin="anonymous"></script>

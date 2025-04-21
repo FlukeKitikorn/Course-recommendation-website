@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "name": "T-Shirt",
+    "price": "$40.00",
+    "images": [
+        {
+            "url": "./assets/T-shirt-black.png",
+            "color": "#272727"
+        }
+    ]
+}
