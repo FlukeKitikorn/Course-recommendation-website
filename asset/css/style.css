@@ -89,6 +89,10 @@ body{
     border-radius: 50px;
     width: 120px;
 }
+
+#sub{
+    margin: 10px 10px;
+}
 #sub:hover{
     cursor: pointer;
     transform: scale(1.1);
@@ -105,4 +109,16 @@ body{
       margin: 20px auto;
       max-width: 300px;
     }
-  }
+}
+
+/* Tablet */
+@media (max-width: 768px){
+    #sub-container{
+        
+    }
+}
+
+/* Laptop */
+@media (max-width: 992px){
+    
+}

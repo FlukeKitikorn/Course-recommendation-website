@@ -1,69 +1,74 @@
 [
-    {
-      "id": 1,
-      "title": "Mathematics Basics",
-      "text": "เรียนรู้พื้นฐานทางคณิตศาสตร์ เช่น การบวก ลบ คูณ หาร และเลขยกกำลัง",
-      "price": 25,
-      "images": [
-        {
-          "url": "./asset/img/Subject/1.png"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Science Explorer",
-      "text": "สำรวจแนวคิดพื้นฐานของวิทยาศาสตร์ ผ่านการทดลองและกิจกรรมที่น่าสนใจ",
-      "price": 30,
-      "images": [
-        {
-          "url": "./asset/img/Subject/2.png"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Physics for Kids",
-      "text": "ปูพื้นฐานฟิสิกส์ เช่น แรง การเคลื่อนที่ พลังงาน และกฎของนิวตัน",
-      "price": 20,
-      "images": [
-        {
-          "url": "./asset/img/Subject/3.png"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Biology Starter Kit",
-      "text": "เรียนรู้เกี่ยวกับสิ่งมีชีวิต เซลล์ ร่างกายมนุษย์ และระบบนิเวศ",
-      "price": 28,
-      "images": [
-        {
-          "url": "./asset/img/Subject/4.png"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "English Grammar Guide",
-      "text": "พัฒนาทักษะภาษาอังกฤษด้านไวยากรณ์ คำศัพท์ และการสื่อสารพื้นฐาน",
-      "price": 22,
-      "images": [
-        {
-          "url": "./asset/img/Subject/5.png"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Guitar Basics",
-      "text": "เริ่มต้นเรียนกีตาร์ตั้งแต่จับคอร์ดพื้นฐาน จนถึงเล่นเพลงง่ายๆ ได้ด้วยตนเอง",
-      "price": 40,
-      "images": [
-        {
-          "url": "./asset/img/Subject/6.png"
-        }
-      ]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Mathematics Basics",
+    "text": "เรียนรู้พื้นฐานทางคณิตศาสตร์ เช่น การบวก ลบ คูณ หาร และเลขยกกำลัง",
+    "price": 25,
+    "category": "mathematics",
+    "images": [
+      {
+        "url": "./asset/img/Subject/1.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Science Explorer",
+    "text": "สำรวจแนวคิดพื้นฐานของวิทยาศาสตร์ ผ่านการทดลองและกิจกรรมที่น่าสนใจ",
+    "price": 30,
+    "category": "science",
+    "images": [
+      {
+        "url": "./asset/img/Subject/2.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Physics for Kids",
+    "text": "ปูพื้นฐานฟิสิกส์ เช่น แรง การเคลื่อนที่ พลังงาน และกฎของนิวตัน",
+    "price": 20,
+    "category": "physics",
+    "images": [
+      {
+        "url": "./asset/img/Subject/3.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Biology Starter Kit",
+    "text": "เรียนรู้เกี่ยวกับสิ่งมีชีวิต เซลล์ ร่างกายมนุษย์ และระบบนิเวศ",
+    "price": 28,
+    "category": "biology",
+    "images": [
+      {
+        "url": "./asset/img/Subject/4.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "English Grammar Guide",
+    "text": "พัฒนาทักษะภาษาอังกฤษด้านไวยากรณ์ คำศัพท์ และการสื่อสารพื้นฐาน",
+    "price": 22,
+    "category": "english",
+    "images": [
+      {
+        "url": "./asset/img/Subject/5.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Guitar Basics",
+    "text": "เริ่มต้นเรียนกีตาร์ตั้งแต่จับคอร์ดพื้นฐาน จนถึงเล่นเพลงง่ายๆ ได้ด้วยตนเอง",
+    "price": 40,
+    "category": "music",
+    "images": [
+      {
+        "url": "./asset/img/Subject/6.png"
+      }
+    ]
+  }
+]
